@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+#header{
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    background-color: black;
+    /* position: relative; */
+ } 
+ .parents{
+    /* position: sticky;
+    top: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+ }
+.Amazon{
+   width: 120px;
+   height: 80px;
+}
+.Amazon:hover{
+    
+          border: 1px solid white;
+}
+
+
+.Amazon img{
+   padding:30px 10px 10px 20px ;
+    width: 100%;
+    height: 100%;
+}
+.map span i{
+    margin: 40px 5px 0 ;
+    color: aliceblue;
+}
+.jaipur{
+    margin-top: 20px;
+}
+.jaipur span{
+   
+    font-size: 20px;
+    color: aliceblue;
+}
+.jaipur span p{
+   
+    font-size: 15px;
+    color: aliceblue;
+}
+.all select{
+margin-bottom: 20px;
+    background-color: rgb(128, 128, 128);
+    width: 65px;
+    padding-left: 10px;
+    height: 37px;
+    border-radius: 4px 0 0 4px;
+}
+.mobile input{
+   
+    margin-top: -2px;
+    width: 685px;
+    height: 23px;
+    padding: 17px;
+}
+.Search span{
+    border-radius: 0 6px 6px 0;
+    position: absolute;
+    left: 723px;
+   bottom: 19.9px;
+
+    color: black;
+    background-color: orange;
+    padding: 9px;
+}
+.location{
+    position: absolute;   
+     top: 0;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    margin-top: 20px;
+    position: absolute;
+    left: 340px;
+    /* position: relative; */
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flag{
+    width: 20px;
+    height: 20px;
+    
+}
+.flag img{
+    width: 100%;
+    height: 100%;
+}
+.En{
+    position: relative;
+}
+.flag{
+    position: absolute;
+    right: 393px;
+    top: 10px;
+}
+
+.dropdown3{
+    display: none;
+    position: absolute; 
+    left: -19px; 
+}
+.dropdown3 li{
+    width: 400px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: white;
+}
+.block3{
+    
+    font-size: 20px;
+    position: absolute;
+    right: 365px;
+    bottom: 6px;
+ 
+}
+
+.block3 a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.block3:hover .dropdown3{
+display: block;
+}
+/* .dropdown{
+    position: relative;
+} */
+.learn a{
+   
+ color: blue;
+ font-size: 15px;
+}
+.flags{
+    position: absolute;
+    bottom: 20px;
+
+}
+.flags{
+    width: 20px;
+    height: 20px;
+    
+}
+.flags img{
+    width: 100%;
+    height: 100%;
+}
+.para p{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.region a{
+    color: blue;
+    font-size: 15px;
+}
+.hello span{
+   color: white;
+}
+.nav-items {
+          margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+.account p{
+    color: white;
+}
+.returns p{
+    color: white;
+}
+
+.nav-items div {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cart {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+.second{
+    background-color:#262e41 ;
+    width: 100%;
+    height: 45px;
+}
+.head span{
+         color: white;
+}
+.free a{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.fresh{
+    padding: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.friend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.output{
+    padding-bottom: 10px;
+    margin-left: 70px;
+    width: 300px;
+    height: 35px;
+}
+.output img{
+    width: 100%;
+    height: 100%;
+}
+.shop{
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/LEO/Jup24/Phase3/FDFO_PC_Header_1500x300_newww.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height:350px;
+}
+.everyday{
+    margin-bottom: 20px;
+    width: 297px;
+    height: 300px;
+}
+.everyday img{
+    width: 100%;
+    height: 100%;
+}
+.everyday1{
+    margin-bottom: 28px;
+    width: 300px;
+    
+}
+.everyday1 img{
+    width: 100%;
+    height: 100%;
+}
+.deals a{
+    color: skyblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+.deals1 a{
+    color: skyblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+.deals{
+    background-color: white;
+    width: 367px;
+    margin-top: 22px;
+padding:0  27px;
+    border: 1px solid white;
+}
+.deals1{
+    background-color: white;
+    width: 350px;
+    margin-top: 23px;
+padding: 10px;
+    border: 1px solid white;
+}
+.deals h2{
+    padding-bottom: 10px;
+}
+.deals1 h2{
+    padding-bottom: 10px;
+}
+.bond{
+  
+    display: flex;
+    align-items: center;
+    
+}
+.more{
+    width: 180px;
+    height: 150px;
+    padding: 0 10px;
+}
+.mores{
+    width: 150px;
+    height: 110px;
+    
+}
+.mores img{
+    width: 100%;
+    height: 100%;
+}
+.more a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black !important;
+
+}
+.home h2{
+    width: 300px;
+}
+.home a{
+   text-decoration: none;
+   color: skyblue;
+   font-size: 15px;
+}
+.home{
+    background-color: white;
+    margin-top: 23px;
+    border: 1px solid white;
+    width: 367px;
+}
+.display{
+    display: flex;
+    align-items: center;
+    margin-top: -59px;
+    justify-content: space-around;
+    /* background-color: #b480c16b; */
+}
+.money{
+    padding-bottom: 20px;
+    background-color: #b480c16b;
+}
+.securely{
+    background-color: white;
+    margin-top: 25px;
+    border: 1px solid white;
+    width: 346px;
+    padding: 20px;
+}
+.securely h2 
+{
+    margin-bottom: 6px;
+}
+.securely a{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 50px;
+   /* margin-top: 20px; */
+   margin: 20px;
+}
+.led{
+   
+    width: 150px;
+    height: 140px;
+}
+.led img{
+    width: 100%;
+    height: 100%;
+}
+.decors a{
+    background-color: orange;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.decors h4{
+    margin-bottom: 10px;
+}
+
+
+.decors{
+    background-color: white;
+    margin-top: 7px;
+    border: 1px solid white;
+    width: 346px;
+    padding: 20px 80px;
+}
+.decors a{
+    text-decoration: none;
+    color: black;
+}
+.decors a:hover{
+            color: red;
+            text-decoration: underline;
+}
+.decors h5{
+    font-size: 10px;
+}
+.Device{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+}
+.under{
+    width: 90%;
+    margin:  24px 0 10px 50px;
+    padding: 0 35px 10px 0;
+    background-color: #ffd77d;
+}
+.style{
+    width: 250px;
+    height: 300px;
+}
+.style img{
+    width: 100%;
+    height: 100%;
+}
+.big{
+ display: flex;
+ width: 250px;
+ background-color: white;
+}
+.off span{
+     color: white;
+     background-color: red;
+     width: 50px;
+}
+.rest span{
+    color:red;
+    width: 90px;
+   background-color: aliceblue;
+
+}
+.family{
+    width: 200px;
+ 
+    background-color:white;
+}
+.familys{
+    width: 200px;
+ 
+    background-color:white;
+}
+
+.toys{
+    width: 250px;
+background-color: white;
+}
+.world{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.Trending h2{
+padding-left: 40px;
+}
+.Customer{
+    display: flex;
+    align-items: center;
+}
+.Orders a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+.Orders a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.kent{
+    
+   
+ 
+    display: flex;
+    align-items: center;
+}
+.web{
+    margin-top: 30px;
+   width: 100%;
+        background-color: white;
+}
+.qubo{
+    padding: 0 5px;
+}
+.displays{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+    /* background-color: #b480c16b; */
+}
+.viwed {
+    width: 150px;
+    height: 100px;
+    margin: 1px 20px; 
+}
+.viwed a{
+    text-decoration: none;
+}
+.viwed a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.kichensaman{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+hr{
+    margin-top: 200px;
+}
+.recommendations{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.recommendations h2{
+    margin: 10px;
+}
+.recommendations a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(228, 178, 85);
+    padding: 5px 100px ;
+    border-radius: 10px;
+}
+.banktotop{
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px 40px;
+    background-color:#37475a ;
+}
+.banktotop a{
+    text-decoration: none;
+    color: white;
+}
+.Customerswho{
+    margin-top: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer-section {
+    width: 20%;
+}
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.language-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+.language-selector select {
+    padding: 5px;
+    background-color: #232F3E;
+    padding-left: 25px;
+    color: white;
+}
+.footer-bottom {
+    background-color: #131A22;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
