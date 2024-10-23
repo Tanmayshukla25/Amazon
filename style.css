@@ -83,6 +83,9 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: space-between;
 }
+.location:hover{
+    border: 1px solid white;
+}
 .form{
     margin-top: 20px;
     position: absolute;
@@ -131,10 +134,13 @@ margin-bottom: 20px;
 }
 
 .block3 a{
-    
-    color: white;
+     color: white;
     text-decoration: none;
 }
+.block3 a:hover{
+    border: 1px solid white;
+}
+
 
 .block3:hover .dropdown3{
 display: block;
@@ -188,6 +194,15 @@ display: block;
     margin-left: 20px;
     text-align: center;
 }
+.account:hover{
+    border: 1px solid white;
+}
+.returns:hover{
+    border: 1px solid white;
+}
+.cart:hover{
+    border: 1px solid white;
+}
 
 .cart {
     font-size: 18px;
@@ -214,6 +229,9 @@ display: block;
     display: flex;
     align-items: center;
 }
+.free:hover{
+  border: 1px solid white;
+}
 .friend{
     display: flex;
     align-items: center;
@@ -224,6 +242,9 @@ display: block;
     margin-left: 70px;
     width: 300px;
     height: 35px;
+}
+.output:hover{
+    border: 1px solid white;
 }
 .output img{
     width: 100%;
@@ -260,10 +281,19 @@ display: block;
     text-decoration: none;
     font-size: 15px;
 }
+.deals a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
 .deals1 a{
     color: skyblue;
     text-decoration: none;
     font-size: 15px;
+}
+.deals1 a:hover{
+    color: red;
+    text-decoration: underline;
 }
 .deals{
     background-color: white;
@@ -319,6 +349,11 @@ padding: 10px;
    color: skyblue;
    font-size: 15px;
 }
+.home a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
 .home{
     background-color: white;
     margin-top: 23px;
@@ -334,7 +369,7 @@ padding: 10px;
 }
 .money{
     padding-bottom: 20px;
-    background-color: #b480c16b;
+    background-color: #80808078;
 }
 .securely{
     background-color: white;
@@ -401,9 +436,9 @@ padding: 10px;
     justify-content: space-around;
 }
 .under{
-    width: 90%;
-    margin:  24px 0 10px 50px;
-    padding: 0 35px 10px 0;
+    width: 100%;
+    margin:  24px 0 10px 0;
+    padding: 0 35px 20px 0;
     background-color: #ffd77d;
 }
 .style{
@@ -448,7 +483,7 @@ background-color: white;
 .world{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 10px;
 }
 .Trending h2{
